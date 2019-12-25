@@ -4,6 +4,7 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
+    <div>123</div>
     <router-view />
   </div>
 </template>
@@ -18,7 +19,8 @@
 }
 
 #nav {
-  padding: 30px;
+  padding: 40px;
+  border: 1px solid #ccc;
 
   a {
     font-weight: bold;
